@@ -1,1 +1,1 @@
-All parameters need to be identical with provider zone and be compatible with each other, as one big file with infrastructure description, that separated just for visual readability.
+Code need to be clean and without any security leaks of credentials or some other sensitive data.

@@ -11,21 +11,25 @@ output "cicd_ip_addr" {
 output "rds_endpoint" {
   value       = module.db.db_instance_endpoint
   description = "Endpoint of the rds."
+  sensitive = false
 }
 
 output "rds_db_name" {
   value       = module.db.db_instance_name
   description = "db name"
+  sensitive = false
 }
 
 output "rds_db_user" {
   value       = module.db.db_instance_username
   description = "db user name"
+  sensitive = false
 }
 
 output "rds_db_pass" {
   value       = module.db.db_instance_master_user_secret_arn
   description = "db user pass"
+  sensitive = false
 }
 
 output "db_instance_adress" {
