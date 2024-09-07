@@ -14,7 +14,7 @@ module "db" {
 
   iam_database_authentication_enabled = true
 
-  vpc_security_group_ids = module.mysql_security_group.security_group_id
+  vpc_security_group_ids = [module.mysql_security_group.security_group_id]
 
 
   tags = {
