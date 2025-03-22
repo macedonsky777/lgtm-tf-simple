@@ -1,4 +1,4 @@
 variable "subdomain" {
   type    = string
-  default = "-itca"
+  default = "allchangesareforgood"
 }

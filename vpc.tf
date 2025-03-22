@@ -8,7 +8,7 @@ module "vpc" {
   private_subnets = ["192.168.0.0/27"]
   public_subnets  = ["192.168.0.32/27"]
 
-  enable_nat_gateway = true
+  enable_nat_gateway = false
 
   tags = {
     Terraform = "true"
